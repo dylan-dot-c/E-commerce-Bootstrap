@@ -1,0 +1,51 @@
+body {
+
+}
+
+.hero {
+    height: 50vh;
+    background-image: url(Rectangle\ 2.png);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.432);
+}
+.links a {
+    display: block;
+    color: unset;
+    text-decoration: none;
+}
+
+a.active {
+    color: black;
+    background-color: yellow;
+    padding: 4px;
+    padding-left: 10px;
+    border-radius: 25px;
+    /* font-size: 20px; */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item-name {
+    font-variant: small-caps;
+}
+.carousel-item img {
+    width: 100%;
+    height: 50vh;
+}
+
+img {
+    object-fit: cover;;
+}
+
+.btn.btn-warning:hover {
+    color: orange!important;
+    border: 3px solid black!important;
+    background-color: none!important;
+}
